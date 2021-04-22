@@ -92,88 +92,18 @@ namespace ToqaMongoDbNew.Repository
 
         public MostResponse GetMostUsedAggregation()
         {
-            #region CommentedCode
-            //var UnWind = new BsonDocument {
-            //    {
-            //        "$unwind",
-            //        new BsonDocument("path", "$ListOfTags")
-            //    }
-            //};
-            //var Project = new BsonDocument
-            //{
-            //    {
-            //        "$project",
-            //        new BsonDocument
-            //        {
-            //            { "ListOfTags", "$ListOfTags" },
-            //            { "_id", 0 }
-            //        }
-            //    }
-            //};
-            //var Group = new BsonDocument
-            //{
-            //    {
-            //        "$group",
-            //        new BsonDocument
-            //        {
-            //            { "_id",
-            //                 new BsonDocument("$toString", "$ListOfTags") },
-            //            { "__agg0",
-            //                new BsonDocument("$sum", 1) }
-            //        }
-            //    }
-            //};
-            //var project = new BsonDocument
-            //{
-            //    {
-            //        "$project",
-            //        new BsonDocument
-            //        {
-            //            { "Tag", "$_id" },
-            //            { "Count", "$__agg0" },
-            //            { "_id", 0 }
-            //        }
-            //    }
-            //};
-            //var Sort = new BsonDocument
-            //{
-            //    {
-            //        "$sort",
-            //        new BsonDocument("Count", -1)
-            //    }
-            //};
-            //var pipeline = new[] { UnWind, Project, Group, project, Sort };
-            #endregion
-
-            //var events = _database.GetCollection<Event>(_eventsCollectionName);
-
-            //var agg = events.Aggregate();
-            //var unwind = agg.Unwind<Event, Event>(e => e.Tags);
-            //var group = unwind.Group(e => e.Tags, v => new { Tag = v.Key, Count = v.Count() });
-            //var sort = group.SortByDescending(e => e.Count);
-            //var project = group.Project(r => r.Tag);
-            //var limit = project.Limit(count);
-            //var result = await limit.SingleOrDefaultAsync();
-
-            //return result;
-
-            var mostUsed = _books.Aggregate()
-                .Unwind("{path: $ListOfTags}")
-                .Project(new BsonDocument{{ "ListOfTags", "$ListOfTags" },{ "_id", 0 }})
-                .Group(new BsonDocument{{ "_id",new BsonDocument("$toString", "$ListOfTags") },{ "__agg0",new BsonDocument("$sum", 1) }})
-                .Project(new BsonDocument{{ "Tags", "$_id" },{ "Count", "$__agg0" },{ "_id", 0 }})
+            var query = _books.Aggregate()
+                .Unwind<Book, UnwindBook>(a => a.ListOfTags)
+                .Group(e => e.ListOfTags, g => new { Tag = g.Key, Count = g.Count() })
                 .Sort("{Count: -1}");
 
-            //var mostUsedstring = mostUsed.ToBsonDocument();
-            //.Group(key => key.Tag, g => new
-            //{
-            //    Count = g.Count(),
-            //});
-            //var mostUsed1 = _books.Aggregate().AppendStage<MostResponse>(mostUsed).First();
-            //var mostUsed1 = _books.Aggregate().First();
-            var bsonObject = mostUsed.ToBsonDocument();
-            var myObj = BsonSerializer.Deserialize<MostResponse>(bsonObject);
-            return myObj;
+            var doc = query.First();
+            var mostUsed = new MostResponse
+            {
+                Tag = doc.Tag,
+                Count = doc.Count
+            };
+            return mostUsed;
         }
 
         public MostResponse GetMostUsedMongoExportation()
