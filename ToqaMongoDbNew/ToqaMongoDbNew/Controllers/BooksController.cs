@@ -44,7 +44,7 @@ namespace ToqaMongoDbNew.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetBooks([FromQuery] BookParameters booksParameters, [FromQuery] string tags)
+        public IActionResult GetBooks([FromQuery] PageParameters booksParameters, [FromQuery] string tags)
         {
             var books = _bookServices.GetBooks(booksParameters,tags);
             return Ok(books);

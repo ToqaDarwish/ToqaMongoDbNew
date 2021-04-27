@@ -1,0 +1,17 @@
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\bin\Debug\net5.0\ToqaMongoDbNew.Persistence.deps.json
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\bin\Debug\net5.0\ToqaMongoDbNew.Persistence.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\bin\Debug\net5.0\ref\ToqaMongoDbNew.Persistence.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\bin\Debug\net5.0\ToqaMongoDbNew.Persistence.pdb
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\bin\Debug\net5.0\ToqaMongoDbNew.Models.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\bin\Debug\net5.0\ToqaMongoDbNew.ViewModels.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\bin\Debug\net5.0\ToqaMongoDbNew.Models.pdb
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\bin\Debug\net5.0\ToqaMongoDbNew.ViewModels.pdb
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\obj\Debug\net5.0\ToqaMongoDbNew.Persistence.csprojAssemblyReference.cache
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\obj\Debug\net5.0\ToqaMongoDbNew.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\obj\Debug\net5.0\ToqaMongoDbNew.Persistence.AssemblyInfoInputs.cache
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\obj\Debug\net5.0\ToqaMongoDbNew.Persistence.AssemblyInfo.cs
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\obj\Debug\net5.0\ToqaMongoDbNew.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\obj\Debug\net5.0\ToqaMongoDbNew.Persistence.csproj.CopyComplete
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\obj\Debug\net5.0\ToqaMongoDbNew.Persistence.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\obj\Debug\net5.0\ref\ToqaMongoDbNew.Persistence.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Persistence\obj\Debug\net5.0\ToqaMongoDbNew.Persistence.pdb

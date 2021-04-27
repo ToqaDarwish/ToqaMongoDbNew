@@ -10,3 +10,15 @@ C:\Users\toqa.darwish\source\repos\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0
 C:\Users\toqa.darwish\source\repos\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0\IdentityMongo.dll
 C:\Users\toqa.darwish\source\repos\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0\ref\IdentityMongo.dll
 C:\Users\toqa.darwish\source\repos\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0\IdentityMongo.pdb
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\bin\Debug\net5.0\IdentityMongo.deps.json
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\bin\Debug\net5.0\IdentityMongo.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\bin\Debug\net5.0\ref\IdentityMongo.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\bin\Debug\net5.0\IdentityMongo.pdb
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0\IdentityMongo.csprojAssemblyReference.cache
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0\IdentityMongo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0\IdentityMongo.AssemblyInfoInputs.cache
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0\IdentityMongo.AssemblyInfo.cs
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0\IdentityMongo.csproj.CoreCompileInputs.cache
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0\IdentityMongo.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0\ref\IdentityMongo.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\IdentityMongo\obj\Debug\net5.0\IdentityMongo.pdb

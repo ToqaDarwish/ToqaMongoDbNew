@@ -1,0 +1,11 @@
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\bin\Debug\net5.0\ToqaMongoDbNew.Models.deps.json
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\bin\Debug\net5.0\ToqaMongoDbNew.Models.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\bin\Debug\net5.0\ref\ToqaMongoDbNew.Models.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\bin\Debug\net5.0\ToqaMongoDbNew.Models.pdb
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\obj\Debug\net5.0\ToqaMongoDbNew.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\obj\Debug\net5.0\ToqaMongoDbNew.Models.AssemblyInfoInputs.cache
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\obj\Debug\net5.0\ToqaMongoDbNew.Models.AssemblyInfo.cs
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\obj\Debug\net5.0\ToqaMongoDbNew.Models.csproj.CoreCompileInputs.cache
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\obj\Debug\net5.0\ToqaMongoDbNew.Models.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\obj\Debug\net5.0\ref\ToqaMongoDbNew.Models.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\obj\Debug\net5.0\ToqaMongoDbNew.Models.pdb

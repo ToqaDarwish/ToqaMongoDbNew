@@ -2697,6 +2697,61 @@
         "runtime": {
           "bin/placeholder/IdentityMongo.dll": {}
         }
+      },
+      "ToqaMongoDbNew.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "ToqaMongoDbNew.Models": "1.0.0",
+          "ToqaMongoDbNew.Persistence": "1.0.0",
+          "ToqaMongoDbNew.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ToqaMongoDbNew.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToqaMongoDbNew.Core.dll": {}
+        }
+      },
+      "ToqaMongoDbNew.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MongoDB.Bson": "2.12.2"
+        },
+        "compile": {
+          "bin/placeholder/ToqaMongoDbNew.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToqaMongoDbNew.Models.dll": {}
+        }
+      },
+      "ToqaMongoDbNew.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "MongoDB.Driver": "2.12.2",
+          "ToqaMongoDbNew.Models": "1.0.0",
+          "ToqaMongoDbNew.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ToqaMongoDbNew.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToqaMongoDbNew.Persistence.dll": {}
+        }
+      },
+      "ToqaMongoDbNew.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ToqaMongoDbNew.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToqaMongoDbNew.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -8712,6 +8767,26 @@
       "type": "project",
       "path": "../IdentityMongo/IdentityMongo.csproj",
       "msbuildProject": "../IdentityMongo/IdentityMongo.csproj"
+    },
+    "ToqaMongoDbNew.Core/1.0.0": {
+      "type": "project",
+      "path": "../ToqaMongoDbNew.Core/ToqaMongoDbNew.Core.csproj",
+      "msbuildProject": "../ToqaMongoDbNew.Core/ToqaMongoDbNew.Core.csproj"
+    },
+    "ToqaMongoDbNew.Models/1.0.0": {
+      "type": "project",
+      "path": "../ToqaMongoDbNew.Models/ToqaMongoDbNew.Models.csproj",
+      "msbuildProject": "../ToqaMongoDbNew.Models/ToqaMongoDbNew.Models.csproj"
+    },
+    "ToqaMongoDbNew.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../ToqaMongoDbNew.Persistence/ToqaMongoDbNew.Persistence.csproj",
+      "msbuildProject": "../ToqaMongoDbNew.Persistence/ToqaMongoDbNew.Persistence.csproj"
+    },
+    "ToqaMongoDbNew.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../ToqaMongoDbNew.ViewModels/ToqaMongoDbNew.ViewModels.csproj",
+      "msbuildProject": "../ToqaMongoDbNew.ViewModels/ToqaMongoDbNew.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8727,7 +8802,11 @@
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "MongoDB.Driver >= 2.12.2",
-      "Swashbuckle.AspNetCore >= 6.1.2"
+      "Swashbuckle.AspNetCore >= 6.1.2",
+      "ToqaMongoDbNew.Core >= 1.0.0",
+      "ToqaMongoDbNew.Models >= 1.0.0",
+      "ToqaMongoDbNew.Persistence >= 1.0.0",
+      "ToqaMongoDbNew.ViewModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8759,6 +8838,18 @@
           "projectReferences": {
             "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\IdentityMongo\\IdentityMongo.csproj": {
               "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\IdentityMongo\\IdentityMongo.csproj"
+            },
+            "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Core\\ToqaMongoDbNew.Core.csproj": {
+              "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Core\\ToqaMongoDbNew.Core.csproj"
+            },
+            "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj": {
+              "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj"
+            },
+            "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Persistence\\ToqaMongoDbNew.Persistence.csproj": {
+              "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Persistence\\ToqaMongoDbNew.Persistence.csproj"
+            },
+            "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\ToqaMongoDbNew.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\ToqaMongoDbNew.ViewModels.csproj"
             }
           }
         }

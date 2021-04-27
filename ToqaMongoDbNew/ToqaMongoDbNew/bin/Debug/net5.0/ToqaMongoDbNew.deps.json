@@ -45,6 +45,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "MongoDB.Driver": "2.12.2",
           "Swashbuckle.AspNetCore": "6.1.2",
+          "ToqaMongoDbNew.Core": "1.0.0",
+          "ToqaMongoDbNew.Models": "1.0.0",
+          "ToqaMongoDbNew.Persistence": "1.0.0",
+          "ToqaMongoDbNew.ViewModels": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies.Reference": "5.0.0.0",
@@ -2328,6 +2332,53 @@
         },
         "compile": {
           "IdentityMongo.dll": {}
+        }
+      },
+      "ToqaMongoDbNew.Core/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "ToqaMongoDbNew.Models": "1.0.0",
+          "ToqaMongoDbNew.Persistence": "1.0.0",
+          "ToqaMongoDbNew.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "ToqaMongoDbNew.Core.dll": {}
+        },
+        "compile": {
+          "ToqaMongoDbNew.Core.dll": {}
+        }
+      },
+      "ToqaMongoDbNew.Models/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.12.2"
+        },
+        "runtime": {
+          "ToqaMongoDbNew.Models.dll": {}
+        },
+        "compile": {
+          "ToqaMongoDbNew.Models.dll": {}
+        }
+      },
+      "ToqaMongoDbNew.Persistence/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "MongoDB.Driver": "2.12.2",
+          "ToqaMongoDbNew.Models": "1.0.0",
+          "ToqaMongoDbNew.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "ToqaMongoDbNew.Persistence.dll": {}
+        },
+        "compile": {
+          "ToqaMongoDbNew.Persistence.dll": {}
+        }
+      },
+      "ToqaMongoDbNew.ViewModels/1.0.0": {
+        "runtime": {
+          "ToqaMongoDbNew.ViewModels.dll": {}
+        },
+        "compile": {
+          "ToqaMongoDbNew.ViewModels.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -5192,6 +5243,26 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "IdentityMongo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ToqaMongoDbNew.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ToqaMongoDbNew.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ToqaMongoDbNew.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ToqaMongoDbNew.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

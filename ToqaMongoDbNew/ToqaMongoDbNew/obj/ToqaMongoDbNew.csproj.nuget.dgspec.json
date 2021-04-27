@@ -72,6 +72,261 @@
         }
       }
     },
+    "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Core\\ToqaMongoDbNew.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Core\\ToqaMongoDbNew.Core.csproj",
+        "projectName": "ToqaMongoDbNew.Core",
+        "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Core\\ToqaMongoDbNew.Core.csproj",
+        "packagesPath": "C:\\Users\\toqa.darwish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\toqa.darwish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj": {
+                "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj"
+              },
+              "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Persistence\\ToqaMongoDbNew.Persistence.csproj": {
+                "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Persistence\\ToqaMongoDbNew.Persistence.csproj"
+              },
+              "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\ToqaMongoDbNew.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\ToqaMongoDbNew.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj",
+        "projectName": "ToqaMongoDbNew.Models",
+        "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj",
+        "packagesPath": "C:\\Users\\toqa.darwish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\toqa.darwish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Persistence\\ToqaMongoDbNew.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Persistence\\ToqaMongoDbNew.Persistence.csproj",
+        "projectName": "ToqaMongoDbNew.Persistence",
+        "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Persistence\\ToqaMongoDbNew.Persistence.csproj",
+        "packagesPath": "C:\\Users\\toqa.darwish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\toqa.darwish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj": {
+                "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj"
+              },
+              "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\ToqaMongoDbNew.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\ToqaMongoDbNew.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\ToqaMongoDbNew.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\ToqaMongoDbNew.ViewModels.csproj",
+        "projectName": "ToqaMongoDbNew.ViewModels",
+        "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\ToqaMongoDbNew.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\toqa.darwish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\toqa.darwish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -98,6 +353,18 @@
             "projectReferences": {
               "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\IdentityMongo\\IdentityMongo.csproj": {
                 "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\IdentityMongo\\IdentityMongo.csproj"
+              },
+              "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Core\\ToqaMongoDbNew.Core.csproj": {
+                "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Core\\ToqaMongoDbNew.Core.csproj"
+              },
+              "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj": {
+                "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj"
+              },
+              "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Persistence\\ToqaMongoDbNew.Persistence.csproj": {
+                "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Persistence\\ToqaMongoDbNew.Persistence.csproj"
+              },
+              "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\ToqaMongoDbNew.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.ViewModels\\ToqaMongoDbNew.ViewModels.csproj"
               }
             }
           }

@@ -879,7 +879,15 @@ C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\D
 C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\IdentityMongo.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\ToqaMongoDbNew.Core.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\ToqaMongoDbNew.Models.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\ToqaMongoDbNew.Persistence.dll
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\ToqaMongoDbNew.ViewModels.dll
 C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\IdentityMongo.pdb
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\ToqaMongoDbNew.Core.pdb
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\ToqaMongoDbNew.Models.pdb
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\ToqaMongoDbNew.Persistence.pdb
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\bin\Debug\net5.0\ToqaMongoDbNew.ViewModels.pdb
 C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\obj\Debug\net5.0\ToqaMongoDbNew.csprojAssemblyReference.cache
 C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\obj\Debug\net5.0\ToqaMongoDbNew.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew\obj\Debug\net5.0\ToqaMongoDbNew.AssemblyInfoInputs.cache

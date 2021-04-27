@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToqaMongoDbNew.Models\ToqaMongoDbNew.Models.csproj" />
+    <ProjectReference Include="..\ToqaMongoDbNew.ViewModels\ToqaMongoDbNew.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

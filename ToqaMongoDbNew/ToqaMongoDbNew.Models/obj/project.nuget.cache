@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PFRYhU+C560auIgJR2ikVbx9OhgEplHOyRia1dStMSXTR50geeUzqRWBxq00W4C6+8UAwPy33YRBmkY5lJ0ifQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\toqa.darwish\\Desktop\\ToqaMongoDbNew\\ToqaMongoDbNew\\ToqaMongoDbNew.Models\\ToqaMongoDbNew.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\toqa.darwish\\.nuget\\packages\\mongodb.bson\\2.12.2\\mongodb.bson.2.12.2.nupkg.sha512",
+    "C:\\Users\\toqa.darwish\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
