@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ToqaMongoDbNew.Exceptions;
 using ToqaMongoDbNew.Models;
 using ToqaMongoDbNew.MongoSetting;
 using ToqaMongoDbNew.Repository;
@@ -24,12 +25,36 @@ namespace ToqaMongoDbNew.Services.BookServices
 
         public BookResponse AddBook(CreateBookViewModel book)
         {
-            return _mapper.Map<Book, BookResponse>(_bookRepository.AddBook(book));
+            if(book.BookName == "" && book.Description == "" && book.ListOfTags.Count == 0)
+            {
+                throw new CustomException();
+            }
+            else if(book.Description == "")
+            {
+                throw new CustomException(true);
+            }
+            else if(book.BookName == "")
+            {
+                throw new CustomException(book.BookName);
+            }
+            else if(book.ListOfTags.Count == 0)
+            {
+                throw new CustomException(book.ListOfTags);
+            }
+            else
+                return _mapper.Map<Book, BookResponse>(_bookRepository.AddBook(book));
         }
 
-        public void DeleteBook(string id)
+        public ApiResponse DeleteBook(string id)
         {
-            _bookRepository.DeleteBook(id);
+            var findId = _bookRepository.FindId(id);
+            if (findId == false)
+                return new ApiResponse { Status = "Failed", Message = "Id is not Found or Invalid ,, Check again your Entered Id" };
+            else
+            {
+                _bookRepository.DeleteBook(id);
+                return new ApiResponse { Status = "Successed", Message = "Book is Deleted Successfully" };
+            }
         }
 
         public List<BookResponse> GetBooks(BookParameters bookParameters, string tags)

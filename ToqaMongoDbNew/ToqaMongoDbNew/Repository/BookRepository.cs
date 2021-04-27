@@ -33,13 +33,29 @@ namespace ToqaMongoDbNew.Repository
 
         public Book UpdateBook(UpdateBookViewModel book)
         {
-            var oldBook = _books.Find(book => book.Id == book.Id).FirstOrDefault();
+            var oldBook = _books.Find(b => b.Id == book.Id).FirstOrDefault();
             var new_Book = _mapper.Map<UpdateBookViewModel, Book>(book, oldBook);
 
             _books.ReplaceOne(b => b.Id == oldBook.Id, new_Book);
             return new_Book;
         }
 
+        public bool FindId(string id)
+        {
+            var Id = new ObjectId();
+            if(!ObjectId.TryParse(id,out Id))
+            {
+                return false;
+            }
+            else
+            {
+                var found = _books.Find(book => book.Id == id).FirstOrDefault();
+                if (found == null)
+                    return false;
+                else
+                    return true;
+            }
+        }
         public void DeleteBook(string id)
         {
             _books.DeleteOne(book => book.Id == id);

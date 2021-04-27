@@ -12,9 +12,9 @@ namespace ToqaMongoDbNew.Services.BookServices
         List<BookResponse> GetBooks(BookParameters bookParameters, string tags);
         Book GetBook(string id);
         BookResponse AddBook(CreateBookViewModel book);
-        void DeleteBook(string id);
+        ApiResponse DeleteBook(string id);
         BookResponse UpdateBook(UpdateBookViewModel book);
         MostResponse GetMostUsed();
-        //BsonDocument GetMostUsed();
+
     }
 }

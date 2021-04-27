@@ -14,6 +14,7 @@ namespace ToqaMongoDbNew.Repository
         Book AddBook(CreateBookViewModel book);
         void DeleteBook(string id);
         Book UpdateBook(UpdateBookViewModel book);
+        bool FindId(string id);
         MostResponse GetMostUsed();
         MostResponse GetMostUsedMongoExportation();
         MostResponse GetMostUsedAggregation();

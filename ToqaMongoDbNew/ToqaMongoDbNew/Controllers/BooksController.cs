@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ToqaMongoDbNew.Helper;
 using ToqaMongoDbNew.Models;
 using ToqaMongoDbNew.Services.BookServices;
 using ToqaPOC.ViewModels;
@@ -25,22 +26,21 @@ namespace ToqaMongoDbNew.Controllers
         [Route("Add")]
         public IActionResult Add(CreateBookViewModel book)
         {
-            return Ok(_bookServices.AddBook(book));
+            return Ok(SuccessHelper.Warp(_bookServices.AddBook(book)));
         }
 
         [HttpPost]
         [Route("Update")]
         public IActionResult UpdateBook(UpdateBookViewModel book)
         {
-            return Ok(_bookServices.UpdateBook(book));
+            return Ok(SuccessHelper.Warp(_bookServices.UpdateBook(book)));
         }
 
         [HttpPost]
         //[Route("Delete")]
         public IActionResult DeleteBook(string id)
         {
-            _bookServices.DeleteBook(id);
-            return Ok(new Response { Status = "Success", Massage = "Book is Deleted Successfully" });
+            return Ok(_bookServices.DeleteBook(id));
         }
 
         [HttpGet]
