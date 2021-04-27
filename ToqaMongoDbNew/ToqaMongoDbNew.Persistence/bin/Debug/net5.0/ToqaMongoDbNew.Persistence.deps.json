@@ -149,6 +149,9 @@
         }
       },
       "ToqaMongoDbNew.ViewModels/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.12.2"
+        },
         "runtime": {
           "ToqaMongoDbNew.ViewModels.dll": {}
         }

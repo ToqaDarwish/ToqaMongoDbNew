@@ -231,6 +231,9 @@
       "ToqaMongoDbNew.ViewModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MongoDB.Bson": "2.12.2"
+        },
         "compile": {
           "bin/placeholder/ToqaMongoDbNew.ViewModels.dll": {}
         },

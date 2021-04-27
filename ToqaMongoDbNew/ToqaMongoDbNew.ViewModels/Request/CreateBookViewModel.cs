@@ -9,12 +9,12 @@ namespace ToqaMongoDbNew.Models
 {
     public class CreateBookViewModel
     {
-        [Required(ErrorMessage = "Book Name is Required")]
+        [Required(ErrorMessage = "Book Name is Required",AllowEmptyStrings = false)]
         [MaxLength(20, ErrorMessage = "You can't enter more than 20 Letters")]
         [MinLength(3, ErrorMessage = "You can't enter less than 3 Letters")]
         [IsEqualToqa(allowedName:"Toqa", ErrorMessage = "The book name must be Toqa")]
         public string BookName { get; set; }
-        [Required(ErrorMessage = "Book Description is Required")]
+        [Required(ErrorMessage = "Book Description is Required",AllowEmptyStrings = false)]
         [MaxLength(100, ErrorMessage = "You can't enter more than 100 Letters")]
         [MinLength(10, ErrorMessage = "You can't enter less than 10 Letters")]
         public string Description { get; set; }

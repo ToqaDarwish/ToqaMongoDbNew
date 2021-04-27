@@ -19,24 +19,10 @@ namespace ToqaMongoDbNew.Services.BookServices
 
         public BookResponse AddBook(CreateBookViewModel book)
         {
-            if(book.BookName == "" && book.Description == "" && book.ListOfTags.Count == 0)
-            {
-                throw new CustomException();
-            }
-            else if(book.Description == "")
-            {
-                throw new CustomException(true);
-            }
-            else if(book.BookName == "")
-            {
-                throw new CustomException(book.BookName);
-            }
-            else if(book.ListOfTags.Count == 0)
-            {
-                throw new CustomException(book.ListOfTags);
-            }
-            else
-                return _mapper.Map<Book, BookResponse>(_bookRepository.AddBook(book));
+            if(book.ListOfTags.Count == 0)
+                throw new CustomException("Invalid empty Book Tag list you Must enter at least one Tag");
+            
+            return _mapper.Map<Book, BookResponse>(_bookRepository.AddBook(book));
         }
 
         public ApiResponse DeleteBook(string id)
