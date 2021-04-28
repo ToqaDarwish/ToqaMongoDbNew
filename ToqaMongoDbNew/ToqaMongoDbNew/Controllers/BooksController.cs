@@ -44,13 +44,13 @@ namespace ToqaMongoDbNew.Controllers
         public IActionResult GetBooks([FromQuery] PageParameters booksParameters, [FromBody] string tags)
         {
             var books = _bookServices.GetBooks(booksParameters,tags);
-            return Ok(books);
+            return Ok(SuccessHelper.Wrap(books));
         }
 
         [HttpGet]
         public IActionResult GetBook([FromQuery]string id)
         {
-            return Ok(_bookServices.GetBook(id));
+            return Ok(SuccessHelper.Wrap(_bookServices.GetBook(id)));
         }
         [HttpGet]
         public IActionResult GetMostUsed()
