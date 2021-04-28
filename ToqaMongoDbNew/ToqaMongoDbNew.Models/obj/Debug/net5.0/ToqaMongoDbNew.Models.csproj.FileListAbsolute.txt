@@ -9,3 +9,4 @@ C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Model
 C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\obj\Debug\net5.0\ToqaMongoDbNew.Models.dll
 C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\obj\Debug\net5.0\ref\ToqaMongoDbNew.Models.dll
 C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\obj\Debug\net5.0\ToqaMongoDbNew.Models.pdb
+C:\Users\toqa.darwish\Desktop\ToqaMongoDbNew\ToqaMongoDbNew\ToqaMongoDbNew.Models\obj\Debug\net5.0\ToqaMongoDbNew.Models.csprojAssemblyReference.cache

@@ -25,13 +25,13 @@ namespace ToqaMongoDbNew.Controllers
         [HttpPut]
         public IActionResult Add(CreateBookViewModel book)
         {
-            return Ok(SuccessHelper.Warp(_bookServices.AddBook(book)));
+            return Ok(SuccessHelper.Wrap(_bookServices.AddBook(book)));
         }
 
         [HttpPost]
         public IActionResult UpdateBook(UpdateBookViewModel book)
         {
-            return Ok(SuccessHelper.Warp(_bookServices.UpdateBook(book)));
+            return Ok(SuccessHelper.Wrap(_bookServices.UpdateBook(book)));
         }
 
         [HttpPost]

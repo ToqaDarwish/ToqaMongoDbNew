@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace ToqaMongoDbNew.Models
 {
-    public class ApiResponse
+    public class OperationResult
     {
-        public string Status { get; set; }
+        public bool Status { get; set; }
         public string Message { get; set; }
     }
 }

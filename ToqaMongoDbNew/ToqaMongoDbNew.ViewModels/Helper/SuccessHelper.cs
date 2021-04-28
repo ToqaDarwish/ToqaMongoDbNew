@@ -7,7 +7,7 @@ namespace ToqaMongoDbNew.Helper
 {
     public static class SuccessHelper
     {
-        public static SuccessOperationResult<T> Warp<T>(T result)
+        public static SuccessOperationResult<T> Wrap<T>(T result)
         {
             return new SuccessOperationResult<T>(result);
         }

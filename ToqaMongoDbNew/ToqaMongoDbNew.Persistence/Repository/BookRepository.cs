@@ -24,16 +24,16 @@ namespace ToqaMongoDbNew.Repository
         public Book AddBook(CreateBookViewModel book)
         {
             var newbook = _mapper.Map<CreateBookViewModel, Book>(book);
-            _books.InsertOne(newbook);
+            _books.InsertOneAsync(newbook);
             return newbook;
         }
 
         public Book UpdateBook(UpdateBookViewModel book)
         {
-            var oldBook = _books.Find(b => b.Id == book.Id).FirstOrDefault();
+            var oldBook = _books.FindAsync(b => b.Id == book.Id).Result.FirstOrDefault();
             var new_Book = _mapper.Map<UpdateBookViewModel, Book>(book, oldBook);
 
-            _books.ReplaceOne(b => b.Id == oldBook.Id, new_Book);
+            _books.ReplaceOneAsync(b => b.Id == oldBook.Id, new_Book);
             return new_Book;
         }
 
@@ -55,10 +55,10 @@ namespace ToqaMongoDbNew.Repository
         }
         public void DeleteBook(string id)
         {
-            _books.DeleteOne(book => book.Id == id);
+            _books.DeleteOneAsync(book => book.Id == id);
         }
 
-        public Book GetBook(string id) => _books.Find(book => book.Id == id).First();
+        public Book GetBook(string id) => _books.FindAsync(book => book.Id == id).Result.First();
 
         public List<BookResponse> GetBooks(PageParameters bookParameters, string tags)
         {

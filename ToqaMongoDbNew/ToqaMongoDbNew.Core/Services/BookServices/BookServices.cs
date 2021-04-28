@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using System.Collections.Generic;
 using ToqaMongoDbNew.Exceptions;
+using ToqaMongoDbNew.Helper;
 using ToqaMongoDbNew.Models;
 using ToqaMongoDbNew.Repository;
 
@@ -25,15 +26,15 @@ namespace ToqaMongoDbNew.Services.BookServices
             return _mapper.Map<Book, BookResponse>(_bookRepository.AddBook(book));
         }
 
-        public ApiResponse DeleteBook(string id)
+        public OperationResult DeleteBook(string id)
         {
             var findId = _bookRepository.FindId(id);
             if (findId == false)
-                return new ApiResponse { Status = "Failed", Message = "Id is not Found or Invalid ,, Check again your Entered Id" };
+                return new OperationResult { Status = false, Message = "Id is not Found or Invalid ,, Check again your Entered Id" };
             else
             {
                 _bookRepository.DeleteBook(id);
-                return new ApiResponse { Status = "Successed", Message = "Book is Deleted Successfully" };
+                return new OperationResult { Status = true, Message = "Book is Deleted Successfully" };
             }
         }
 
