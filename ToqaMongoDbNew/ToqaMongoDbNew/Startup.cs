@@ -1,3 +1,7 @@
+using Hangfire;
+using Hangfire.Mongo;
+using Hangfire.Mongo.Migration.Strategies;
+using Hangfire.Mongo.Migration.Strategies.Backup;
 using IdentityMongo;
 using IdentityMongo.Model;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -27,6 +31,8 @@ namespace ToqaMongoDbNew
 {
     public class Startup
     {
+        private object mongoDatabaseName => Configuration["MongoDatabaseSettings:DatabaseName"];
+
         private string ConnectionString => Configuration.GetConnectionString("DefaultConnection");
 
         public Startup(IConfiguration configuration)
@@ -39,6 +45,8 @@ namespace ToqaMongoDbNew
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //var mongoUrlBuilder = new MongoUrlBuilder(connectionString);
+            //var databaseName = mongoUrlBuilder.DatabaseName;
             services.AddIdentityMongoDbProvider<ApplicationUser, MongoRole>(identity =>
             {
                 identity.Password.RequireDigit = false;
@@ -53,6 +61,29 @@ namespace ToqaMongoDbNew
                     mongo.ConnectionString = ConnectionString;
                 }
             );
+
+
+            // Add Hangfire services. Hangfire.AspNetCore nuget required
+            services.AddHangfire(configuration => configuration
+                .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
+                .UseSimpleAssemblyNameTypeSerializer()
+                .UseRecommendedSerializerSettings()
+                .UseMongoStorage(ConnectionString, new MongoStorageOptions
+                {
+                    MigrationOptions = new MongoMigrationOptions
+                    {
+                        MigrationStrategy = new MigrateMongoMigrationStrategy(),
+                        BackupStrategy = new CollectionMongoBackupStrategy()
+                    },
+                    Prefix = "hangfire.mongo",
+                    CheckConnection = true
+                })
+            );
+            // Add the processing server as IHostedService
+            services.AddHangfireServer(serverOptions =>
+            {
+                serverOptions.ServerName = "Hangfire.Mongo server 1";
+            });
 
             //services.AddAutoMapper(typeof(Startup));
             services.AddCustomConfiguredAutoMapper();
@@ -174,6 +205,7 @@ namespace ToqaMongoDbNew
             });
 
             app.UseHttpsRedirection();
+            app.UseHangfireDashboard();
             app.UseStaticFiles();
 
             app.UseRouting();
