@@ -31,7 +31,6 @@ namespace ToqaMongoDbNew
 {
     public class Startup
     {
-        private object mongoDatabaseName => Configuration["MongoDatabaseSettings:DatabaseName"];
 
         private string ConnectionString => Configuration.GetConnectionString("DefaultConnection");
 
